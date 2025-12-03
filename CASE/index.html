@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case-Vahendid</title>
+</head>
+<body>
+        <h1>Mis on CASE vahendid?</h1></br>
+        <p>
+            Tarkvaraarenduse elutsükkel koosneb erinevatest etappidest, millest tehtavad tegevused on väga erinevad.<br/>
+            Kuid igas etapis on siiski arendatava tarkvara jaoks vajalikud tegevused.<br/> 
+            Need tegevused lahendatakse või tehakse ära tööriistadega, mida nimetatakse (inglise keeles CASE-vahenditeks)<br/>
+            tarkvara raaltehnoloogiaks.<br/>
+            <h2>CASE-vahend?</h2>
+            CASE on akronüüm inglise keelsest terminist "Computer-Aided-Software-Engineering".
+        </p></br></br>
+        <h1>Kuidas CASE-vahendeid kasutatakse?</h1>
+        <p>
+            CASE-vahend on kasutusel erinevates etappides ja lubab ära teha arendajal tegevusi nagu Nõuete analüüs,<br/>
+            erinevate protsesside voolu kujundamine, ajakava seadmine, dokumentatsiooni genereerimine, versiooni-<br/>
+            haldus (olgu siis kas dokumentatsioonile endale, või arendatavale tarkvarale), arendustöö enda teostamine<br/>
+            arendusmeeskonna ja arendustöö enda organiseerimine, prototüübi genereerimine jpm.<br/>
+            Sellel eesmärgil kategoriseeritaksegi CASE-vahendid kahte peamisesse kategooriasse.<br/>
+            <ul>
+                <li><a href="uppercase.html">Upper-CASE-vahendid</a></li>
+                <li><a href="lowercase.html">Lower-CASE-vahendid</a></li>
+            </ul><br/>
+            CASE-vahendid lubavad teha ära, kas mingi ühe tegevuse või otsast-otsani arendustööd. Enamus
+            CASE-vahendeid<br/>
+            integreerib endas ka mitme erineva etapi või mõlema taseme tööriistu.
+        </p><br/><br/>
+        <h1>Näide, Kuidas arendusmudelis X, CASE-vahendeid rakendada saaks ning nende tööriistade lühikirjeldus</h1>
+        <p>
+            <h2>Arendusmudel Waterfall</h2>
+            Waterfalli arendusmudel põhineb traditsioonilise tootmisprotsessi eeskujul ning omab endas järgmisi samme:
+            <table>
+                <thead>
+                    <tr>
+                        <th>Arendusmudeli samm</th>
+                        <th>Sammus tehtavad tööd</th>
+                        <th>Vastav CASE-vahend</th>
+                        <th>CASE-vahendi kirjeldus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nõuete Määratlemine</td>
+                        <td>
+                            <ul>
+                                <li>Dokumenteeritakse arendava toote nõuded</li>
+                            </ul>
+                        </td>
+                        <td>IBM DOORS <img src="../pildid/doorsibm.png" alt="" height="120px"></td>
+                        <td>Nõuete kogumiseks, haldamiseks ja versioneerimiseks mõeldud tööriist, mis laseb<br/>
+                            koostada struktureeritud nõudeid, linkida neid ning tagada jälgitavust kogu projekti elutsüklis.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Süsteemi ja Tarkvara kavandamine</td>
+                        <td>
+                            <ul>
+                                <li>Kavandatakse arendatava tarkvaratoote süsteem ning struktuur</li>
+                            </ul>
+                        </td>
+                        <td>Sparx Systems <img src="../pildid/sparxsystems.jpg" alt="" height="120px"></td>
+                        <td>Modelleerimistööriist, mida kasutame UML-i, BPMN-i ja arhitektuuriskeemide loomiseks. See sobib<br/>
+                            süsteemi struktuuri, klassidiagrammide, kasutuslugude jms kavandamiseks.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Teostus ning moodulite testimine</td>
+                        <td>
+                            <ul>
+                                <li>Programm arendatakse moodulite haaval ning testitakse valminud mooduleid ja<br/>
+                                nende kogumikke</li>
+                            </ul>
+                        </td>
+                        <td>Microsoft Visual Studio <img src="../pildid/visualstudio.jpg" alt="" height="120px"></td>
+                        <td>Integratsiooniga arenduskeskkond (IDE), mis toetab koodi kirjutamist,<br/>
+                             moodulipõhist testimist, kompileerimist, debug-imist ja automatiseeritud testide loomist.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Integratsioon ja süsteemi testimine</td>
+                        <td>
+                            <ul>
+                                <li>Toimub kogu valmissaanud tarkvarasüsteemi testimine ning saadetakse kliendile</li>
+                            </ul>
+                        </td>
+                        <td>Jenkins <img src="../pildid/jenkins.png" alt="" height="120px" ></td>
+                        <td>Automaatseks integreerimiseks ja süsteemseks testimiseks mõeldud server, mis võimaldab<br/>
+                            ühendada mooduleid tervikuks, testikomplektide käivitamine ning ka ehitusprotsessi haldamine.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Kasutamine ja hooldus</td>
+                        <td>
+                            <ul>
+                                <li>Tehakse lõplik testimine, vigade parandus, koodi refaktoreerimine ning korratakse<br/>
+                                    kõiki eelmisi etappe süsteemi muutmise tarbeks</li>
+                            </ul>
+                        </td>
+                        <td>Jira <img src="../pildid/jira.jpg" alt="" height="120px"></td>
+                        <td>Tarkvarahoolduse, vigade halduse ja muutustaotluste juhtimise süsteem, mis aitab jälgida vigu,<br/>
+                            planeerida hooldusversioone ja dokumenteerida parandusi.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+</body>
+</html>
