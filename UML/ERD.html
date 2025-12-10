@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERD</title>
+</head>
+<body>
+        <p>
+            <a href="index.html" class="modelLink">Tagasiminek</a>
+            <h1>ERD</h1>
+            <p>ERD-diagrammid ehk andmeobjektide seose diagrammid (Entity-Relationship Diagrams) on visuaalsed tööriistad, mida kasutatakse<br/>
+               andmebaaside modelleerimiseks. Need näitavad andmebaasis sisalduvaid andmeobjekte (entiteete), nende omavahelisi seoseid ja<br/>
+               igaleentiteedile kuuluvaid atribuute.
+            </p><br/>
+            <h3>ERD põhielemendid</h3>
+            <ul>
+                <li>
+                    <h3>Entiteedid (Entities)</h3>
+                    <p>Need on objektid või asjad, mida modelleeritakse andmebaasis.</p>
+                    <p>Näited: „Kasutaja“, „Toode“, „Tellimus“.</p>
+                    <p>Tavaliselt tähistatud ristkülikutega.</p>
+                </li>
+                <li>
+                    <h3>Atribuudid (Attributes)</h3>
+                    <p>Kasutaja: nimi, e-post, telefoninumber.</p>
+                    <p>Toode: nimetus, hind, laoseis.</p>
+                </li>
+                <li>
+                    <h3>Seosed (Relationships)</h3>
+                    <p>Need kirjeldavad, kuidas entiteedid omavahel seotud on.</p>
+                    <p>Näiteks: „Kasutaja teeb tellimuse“ või „Toode kuulub kategooriasse“.</p>
+                    <p>Tavaliselt tähistatud teemantkujuliste sümbolitega, millele on lisatud seose nimi.</p>
+                </li>
+                <li>
+                    <h3>Seoste kardinaalsus</h3>
+                    <p>Määrab, kuidas entiteedid omavahel seostuvad. Näiteks:</p>
+                    <p>- Üks-ühele (1:1): Igal kasutajal on üks profiil.</p>
+                    <p>- Üks-mitmele (1:N): Üks kasutaja saab teha mitu tellimust.</p>
+                    <p>- Mitu-mitmele (M:N): Mitmel kasutajal võib olla mitmeid erinevaid tooteid ostukorvis.</p>
+                </li>
+                <h3>Miks kasutada ERD-diagramme?</h3>
+                <p>Planeerimine ja disain: Aitab andmebaasi struktuuri selgelt välja mõelda enne selle loomist.</p>
+                <p>Visualiseerimine: Lihtsustab keerukate süsteemide mõistmist ja suhtlust arendajate, analüütikute ja ärimeeskonna vahel.</p>
+                <p>Dokumentatsioon: Pakub ülevaatlikku dokumentatsiooni süsteemi andmete loogilisest struktuurist.</p>
+                <h3>Mis on Primary Key, Foreign Key, Composite Key ja Key?</h3>
+                <ul>
+                    <li>Primary Key (PK)</li>
+                    <p>Unikaalne atribuut või atribuudi kogum, mis tuvastab entiteedi iga rea üheselt.</p>
+                    <li>Foreign Key (FK)</li>
+                    <p>Viitab teise tabeli Primary Key-le, luues seose kahe entiteedi vahel.</p>
+                    <li>Composite Key</li>
+                    <p>Koosneb mitmest atribuudist, mis ühiselt moodustavad unikaalse võtme.</p>
+                    <li>Key (Üldmõiste)</li>
+                    <p>Viitab mis tahes atribuudi või atribuudi kombinatsioonile, mida kasutatakse tabelis andmete tuvastamiseks või seostamiseks.</p>
+                </ul>
+            </ul>
+            </br>
+            <a href="https://www.lucidchart.com/pages/er-diagrams" target="_blank" class="modelLink">Siit sain info ERD kohta</a>
+        </p>
+</body>
+</html>
